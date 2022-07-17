@@ -1,44 +1,65 @@
 @import "scss/mixin";
 @import "scss/variables";
 
+// === VŠEOBECNÉ ========================
+
 body {
     background-color: $bodyColor;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.block {
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
+// ==== HEADER ========================
 
-    .border-block {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        border: 3px solid darken($second-color, 10%);
-        height: 500px;
-        border-radius: .8em;
+.header-left {
 
-        img {
-            margin-top: 3%;
-        }
+    background-attachment: fixed;
 
-        h2 {
-            color: #fff;
-            font-weight: 600;
-            font-size: 1.5em;
-            text-align: center;
-            padding: 0 5px;
-        }
-
-        a {
-            color: darken($second-color, 10%);
-            text-decoration: none;
-            
-            &:hover {
-                text-decoration: underline;
-            }
-        }
+    img {
+        width: 100%;
+        height: $header-height;
+        object-fit: cover;
     }
 }
+
+
+.header-right {
+    display: flex;
+    max-width: 100%;
+
+}
+
+.slide {
+    display: flex; 
+    flex: .8;
+    flex-direction: column;
+    
+    height: $header-height;
+    background-position: center center;
+    cursor: pointer;
+    
+    }
+
+.slide.active {
+    flex: 3;
+}
+
+.img1 {
+    background-image: url(house/house1.jpg);
+}
+
+.img2 {
+    background-image: url(house/house2.jpg);
+}
+
+.img3 {
+    background-image: url(house/house3.jpg);
+}
+
+.img4 {
+    background-image: url(house/house4.jpg);
+}
+
+.img5 {
+    background-image: url(house/house5.jpg);
+}
+
