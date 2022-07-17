@@ -1,1 +1,55 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  background-color: #000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10%;
+}
+
+.block .border-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 3px solid #ccb800;
+  height: 500px;
+  border-radius: .8em;
+}
+
+.block .border-block img {
+  margin-top: 3%;
+}
+
+.block .border-block h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 0 5px;
+}
+
+.block .border-block a {
+  color: #ccb800;
+  text-decoration: none;
+}
+
+.block .border-block a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
