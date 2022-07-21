@@ -328,4 +328,139 @@ nav ul li a i {
   -webkit-transform: skewX(10deg);
           transform: skewX(10deg);
 }
+
+.sluzby {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+}
+
+.sluzby .hight-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sluzby .hight-text .underline {
+  width: 400px;
+  border-bottom: 5px dotted #c4b250;
+}
+
+.sluzby .hight-text h2 {
+  font-size: 95px;
+  font-weight: 900;
+  color: aliceblue;
+}
+
+.sluzby .service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.sluzby .service .service1, .sluzby .service .service2, .sluzby .service .service3, .sluzby .service .service4, .sluzby .service .service5, .sluzby .service .service6, .sluzby .service .service7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 400px;
+  height: 450px;
+  position: relative;
+  background-image: url(sluzby/section01.jpg);
+  background-position: center center;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+  cursor: pointer;
+}
+
+.sluzby .service .service1:hover, .sluzby .service .service1:focus, .sluzby .service .service2:hover, .sluzby .service .service2:focus, .sluzby .service .service3:hover, .sluzby .service .service3:focus, .sluzby .service .service4:hover, .sluzby .service .service4:focus, .sluzby .service .service5:hover, .sluzby .service .service5:focus, .sluzby .service .service6:hover, .sluzby .service .service6:focus, .sluzby .service .service7:hover, .sluzby .service .service7:focus {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.sluzby .service .service1 .cover, .sluzby .service .service2 .cover, .sluzby .service .service3 .cover, .sluzby .service .service4 .cover, .sluzby .service .service5 .cover, .sluzby .service .service6 .cover, .sluzby .service .service7 .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: .5;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+}
+
+.sluzby .service .service1 .cover:hover, .sluzby .service .service2 .cover:hover, .sluzby .service .service3 .cover:hover, .sluzby .service .service4 .cover:hover, .sluzby .service .service5 .cover:hover, .sluzby .service .service6 .cover:hover, .sluzby .service .service7 .cover:hover {
+  opacity: 0;
+  -webkit-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+}
+
+.sluzby .service .service1 h3, .sluzby .service .service2 h3, .sluzby .service .service3 h3, .sluzby .service .service4 h3, .sluzby .service .service5 h3, .sluzby .service .service6 h3, .sluzby .service .service7 h3 {
+  position: relative;
+  z-index: 6;
+  color: aliceblue;
+  font-weight: 900;
+  font-size: 3em;
+  text-align: center;
+}
+
+.sluzby .service .service2 {
+  background-image: url(sluzby/section02.jpg);
+}
+
+.sluzby .service .service3 {
+  background-image: url(sluzby/section3.jpg);
+}
+
+.sluzby .service .service4 {
+  background-image: url(sluzby/section4.jpg);
+}
+
+.sluzby .service .service5 {
+  background-image: url(sluzby/section5.jpg);
+}
+
+.sluzby .service .service6 {
+  background-image: url(sluzby/section6.jpg);
+}
+
+.sluzby .service .service7 {
+  background-image: url(sluzby/section7.jpg);
+}
 /*# sourceMappingURL=style.css.map */
