@@ -220,3 +220,59 @@ nav {
     background-image: url(house/house5.jpg);
 }
 
+// === ABOUT US ==========================
+
+.about-us-block {
+    margin-top: 100px;
+
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+
+        p {
+            width: 75%;
+            color: $text-color;
+            font-weight: 900;
+            font-size: 2em;
+            align-self: flex-end;
+            margin-top: 60px;
+        }
+
+        .hight-text {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-bottom: 5px dotted $second-color;
+
+            h2 {
+                font-size: 95px;
+                font-weight: 900;
+                color: $link-color;
+    
+            }
+
+        }
+
+    }
+
+    .right-side {
+
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transform: skewX(10deg);
+        }
+
+    }
+}
+
+// ==== SLUZBY BLOCK ===========
+
+// .sluzby {
+
+// }
+
