@@ -437,5 +437,58 @@ nav {
   
     background-color: rgba($color: #000000, $alpha: 0.7);
   }
+
+//===== KONTAKT BLOCK ===============
+.kontakt {
+
+
+    .kontakt-left,.kontakt-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+    }
+
+    .kontakt-left {
+        border-right: 5px dotted $second-color;
+
+
+        ul {
+
+            li {
+                list-style-type: none;
+
+                a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: $text-color;
+                    text-decoration: none;
+                    font-size: 28px;
+                    font-weight: 900;
+
+                    transform: rotate(0);
+                    transition: color .3s, transform .3s;
+
+                    &:nth-child(1) {
+                        margin-top: 20px;
+                    }
+
+                    &:hover {
+                        color: #000;
+
+                        transform: rotate(5deg);
+                        transition: color .3s, transform .3s;
+                    }
+
+                    i {
+                        font-size: 40px;
+                        padding-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
   
 
