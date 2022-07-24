@@ -490,5 +490,26 @@ nav {
         }
     }
 }
+//===== FOOTER ===============
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: $text-color;
+
+    a {
+        color: $link-color;
+        text-decoration: none;
+
+        transform: rotate(0);
+        transition: transform .3s;
+
+        &:hover {
+            transform: rotate(2deg);
+            transition: transform .3s;
+        }
+    }
+}
   
 
