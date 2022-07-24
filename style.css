@@ -1,3 +1,30 @@
+.hight-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hight-text .underline {
+  width: 400px;
+  border-bottom: 5px dotted #c4b250;
+}
+
+.hight-text h2 {
+  font-size: 95px;
+  font-weight: 900;
+  color: aliceblue;
+}
+
 .better {
   color: #c4b250;
 }
@@ -336,33 +363,6 @@ nav ul li a i {
   margin-top: 100px;
 }
 
-.sluzby .hight-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.sluzby .hight-text .underline {
-  width: 400px;
-  border-bottom: 5px dotted #c4b250;
-}
-
-.sluzby .hight-text h2 {
-  font-size: 95px;
-  font-weight: 900;
-  color: aliceblue;
-}
-
 .sluzby .service {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -467,5 +467,13 @@ nav ul li a i {
 
 .sluzby .service .service7 {
   background-image: url(sluzby/section7.jpg);
+}
+
+.fotogaleria img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center center;
 }
 /*# sourceMappingURL=style.css.map */
