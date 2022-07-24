@@ -527,4 +527,66 @@ nav ul li a i {
   z-index: 500;
   background-color: rgba(0, 0, 0, 0.7);
 }
+
+.kontakt .kontakt-left, .kontakt .kontakt-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
+}
+
+.kontakt .kontakt-left {
+  border-right: 5px dotted #c4b250;
+}
+
+.kontakt .kontakt-left ul li {
+  list-style-type: none;
+}
+
+.kontakt .kontakt-left ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #3f3e3e;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 900;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  -webkit-transition: color .3s, -webkit-transform .3s;
+  transition: color .3s, -webkit-transform .3s;
+  transition: color .3s, transform .3s;
+  transition: color .3s, transform .3s, -webkit-transform .3s;
+}
+
+.kontakt .kontakt-left ul li a:nth-child(1) {
+  margin-top: 20px;
+}
+
+.kontakt .kontakt-left ul li a:hover {
+  color: #000;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+  -webkit-transition: color .3s, -webkit-transform .3s;
+  transition: color .3s, -webkit-transform .3s;
+  transition: color .3s, transform .3s;
+  transition: color .3s, transform .3s, -webkit-transform .3s;
+}
+
+.kontakt .kontakt-left ul li a i {
+  font-size: 40px;
+  padding-right: 15px;
+}
 /*# sourceMappingURL=style.css.map */
