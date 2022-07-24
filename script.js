@@ -57,3 +57,22 @@ for(let i = 0; fotogalleryImg.length > i; i++) {
 
     });
 };
+
+// == BACK TO HOME BUTTON ===================================
+
+let backToHome  = document.querySelector(".back_to_home");
+let backToHomeI = document.querySelector(".back_to_home i")
+
+
+window.addEventListener("scroll", function (e) {
+  let scroll = this.window.scrollY;
+
+  if (Math.ceil(scroll) > 400) {
+    backToHome.style.display = "block";
+  } else {
+    backToHome.style.display = "none";
+  }
+
+
+
+  });
