@@ -392,6 +392,26 @@ nav {
         height: 300px;
         object-fit: cover;
         background-position: center center;
+        cursor: pointer;
     }
 }
+
+/*====== MODAL BOX ==========*/
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100%;
+    height: 100%;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+  
+    background-color: rgba($color: #000000, $alpha: 0.7);
+  }
+  
 
