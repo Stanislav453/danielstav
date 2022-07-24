@@ -377,12 +377,12 @@ nav ul li a i {
 }
 
 .about-us-block .right-side img {
-  width: 100%;
+  width: 80%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-transform: skewX(10deg);
-          transform: skewX(10deg);
+  -webkit-transform: skew(10deg);
+          transform: skew(10deg);
 }
 
 .sluzby {

@@ -270,7 +270,6 @@ nav {
     .left-side {
         display: flex;
         flex-direction: column;
-        // align-items: center;
 
         p {
             width: 75%;
@@ -303,10 +302,11 @@ nav {
 
 
         img {
-            width: 100%;
+            width: 80%;
             height: 100%;
             object-fit: cover;
-            transform: skewX(10deg);
+            transform: skew(10deg);
+           
         }
 
     }
