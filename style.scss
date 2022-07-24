@@ -6,6 +6,25 @@
 //     outline: 1px solid red;
 // }
 
+.hight-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .underline {
+        width: 400px;
+        border-bottom: 5px dotted $second-color;
+    }
+
+    h2 {
+        font-size: 95px;
+        font-weight: 900;
+        color: $link-color;
+
+    }
+}
+
 .better {
     color: $second-color ;
 }
@@ -276,24 +295,6 @@ nav {
     display: flex;
     margin-top: 100px;
 
-    .hight-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        .underline {
-            width: 400px;
-            border-bottom: 5px dotted $second-color;
-        }
-
-        h2 {
-            font-size: 95px;
-            font-weight: 900;
-            color: $link-color;
-
-        }
-    }
 
     .service {
         display: flex;
