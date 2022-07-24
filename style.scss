@@ -488,6 +488,18 @@ nav {
             }
         }
     }
+
+    .kontakt-right {
+
+        a {
+            transform: rotate(0);
+            transition: transform .3s;
+            &:hover {
+                transform: rotate(5deg);
+                transition: transform .3s;
+            }
+        }
+    }
 }
 //===== FOOTER ===============
 .footer {

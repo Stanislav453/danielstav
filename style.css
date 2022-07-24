@@ -589,6 +589,24 @@ nav ul li a i {
   padding-right: 15px;
 }
 
+.kontakt .kontakt-right a {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.kontakt .kontakt-right a:hover {
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
