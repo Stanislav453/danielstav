@@ -24,7 +24,6 @@ function deleteActive() {
 let fotogalleryImg = document.querySelectorAll(".fotogaleria img");
 let body             = document.querySelector("body");
 
-console.log( fotogalleryImg )
 
 for(let i = 0; fotogalleryImg.length > i; i++) {
     fotogalleryImg[i].addEventListener("click", function(e) {
@@ -61,7 +60,7 @@ for(let i = 0; fotogalleryImg.length > i; i++) {
 // == BACK TO HOME BUTTON ===================================
 
 let backToHome  = document.querySelector(".back_to_home");
-let backToHomeI = document.querySelector(".back_to_home i")
+let backToHomeI = document.querySelector(".back_to_home i");
 
 
 window.addEventListener("scroll", function (e) {
