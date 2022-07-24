@@ -383,3 +383,15 @@ nav {
     }
 }
 
+// == FOTOGALERIA ============================
+
+.fotogaleria {
+
+    img {  
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        background-position: center center;
+    }
+}
+
