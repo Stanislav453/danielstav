@@ -39,21 +39,20 @@ body {
 .back_to_home {
     display: block;
     position: fixed;
-    bottom: 2%;
-    right: 10%;
+    bottom: .2%;
+    right: 3%;
     z-index: 100;
   
     i {
       font-size: 100px;
-      color: red;
+      color: black;
   
       transform: scale(0.8);
-      transition: color 0.3s, transform 1s;
+      transition: color 0.3s, transform .3s;
   
       &:hover {
         transform: scale(1);
-        color: green;
-        transition: color 0.3s, transform 1s;
+        transition: color 0.3s, transform .3s;
       }
     }
   }

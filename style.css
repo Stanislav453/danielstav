@@ -38,30 +38,29 @@ body {
 .back_to_home {
   display: block;
   position: fixed;
-  bottom: 2%;
-  right: 10%;
+  bottom: .2%;
+  right: 3%;
   z-index: 100;
 }
 
 .back_to_home i {
   font-size: 100px;
-  color: red;
+  color: black;
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
-  -webkit-transition: color 0.3s, -webkit-transform 1s;
-  transition: color 0.3s, -webkit-transform 1s;
-  transition: color 0.3s, transform 1s;
-  transition: color 0.3s, transform 1s, -webkit-transform 1s;
+  -webkit-transition: color 0.3s, -webkit-transform .3s;
+  transition: color 0.3s, -webkit-transform .3s;
+  transition: color 0.3s, transform .3s;
+  transition: color 0.3s, transform .3s, -webkit-transform .3s;
 }
 
 .back_to_home i:hover {
   -webkit-transform: scale(1);
           transform: scale(1);
-  color: green;
-  -webkit-transition: color 0.3s, -webkit-transform 1s;
-  transition: color 0.3s, -webkit-transform 1s;
-  transition: color 0.3s, transform 1s;
-  transition: color 0.3s, transform 1s, -webkit-transform 1s;
+  -webkit-transition: color 0.3s, -webkit-transform .3s;
+  transition: color 0.3s, -webkit-transform .3s;
+  transition: color 0.3s, transform .3s;
+  transition: color 0.3s, transform .3s, -webkit-transform .3s;
 }
 
 nav {
