@@ -36,7 +36,7 @@ body {
 
 /*====== Back to home button ================= */
 .back_to_home {
-  display: block;
+  display: none;
   position: fixed;
   bottom: .2%;
   right: 3%;
