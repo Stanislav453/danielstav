@@ -521,6 +521,11 @@ nav {
 
 //=== VŠEOBECNÉ ======== 
 
+.show-nav {
+    transform: scale(1);
+    transition: transform .3s;
+}
+
 .imger {
     width: 90%;
   }
@@ -535,9 +540,57 @@ nav {
         width: 284px;
     }
  }
+    .mobile-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $text-color;
+        height: 80px;
+        border-bottom: 1px dashed #fff ;
+
+        i {
+            color: $link-color;
+            font-size: 70px;
+            cursor: pointer;
+
+        }
+    }
 
     nav {
-        display: none;
+       justify-content: flex-start;
+       padding: 0;
+       position: absolute;
+       top: 80px;
+       left: 0;
+       transform: scale(0);
+       transition: transform .3s;
+ 
+
+        ul {
+            flex-direction: column;
+            width: 98%;
+
+
+
+
+            li {
+                width: 100%;
+                border-bottom: 1px dashed #fff;
+ 
+
+                &:last-of-type {
+                    border: 0;
+                }
+                a {
+                    flex-direction: row;
+                    padding: 5px 0;
+
+                    i {
+                        padding-right: 24px;
+                    }
+                }
+            }
+        }
     }
 
 

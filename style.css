@@ -635,6 +635,14 @@ nav ul li a i {
 }
 
 @media (max-width: 576px) {
+  .show-nav {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+  }
   .imger {
     width: 90%;
   }
@@ -644,8 +652,63 @@ nav ul li a i {
   .hight-text .underline {
     width: 284px;
   }
+  .mobile-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #3f3e3e;
+    height: 80px;
+    border-bottom: 1px dashed #fff;
+  }
+  .mobile-button i {
+    color: aliceblue;
+    font-size: 70px;
+    cursor: pointer;
+  }
   nav {
-    display: none;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 0;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+  }
+  nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 98%;
+  }
+  nav ul li {
+    width: 100%;
+    border-bottom: 1px dashed #fff;
+  }
+  nav ul li:last-of-type {
+    border: 0;
+  }
+  nav ul li a {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 5px 0;
+  }
+  nav ul li a i {
+    padding-right: 24px;
   }
   .header-left .cover img {
     width: 370px;
