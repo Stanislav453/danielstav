@@ -316,7 +316,6 @@ nav {
             align-items: center;
             width: 400px;
             height: 450px;
-            position: relative;
             background-image: url(sluzby/section01.jpg);
             background-position: center center;
             object-fit: contain;
@@ -348,7 +347,7 @@ nav {
 
                 transition: background-color .3s,text-shadow .3s;
 
-                &:hover {
+                &:hover,&:focus {
                     text-shadow: 5px 5px 10px #000;
                     background-color: rgba($color: #000000, $alpha: 0);
                     transition: background-color .3s, text-shadow .3s;
@@ -606,10 +605,19 @@ nav {
     }
  }
 
+ //==== SLUZBY BLOCK ============
 
-    .sluzby {
-        display: none;
-    }
+ .sluzby {
+
+    .service {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0;
+     }
+    
+
+ }
 
     .fotogaleria {
         display: none;

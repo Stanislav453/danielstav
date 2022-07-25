@@ -397,7 +397,6 @@ nav ul li a i {
           align-items: center;
   width: 400px;
   height: 450px;
-  position: relative;
   background-image: url(sluzby/section01.jpg);
   background-position: center center;
   -o-object-fit: contain;
@@ -446,7 +445,7 @@ nav ul li a i {
   transition: background-color .3s,text-shadow .3s;
 }
 
-.sluzby .service .service1 h3:hover, .sluzby .service .service2 h3:hover, .sluzby .service .service3 h3:hover, .sluzby .service .service4 h3:hover, .sluzby .service .service5 h3:hover, .sluzby .service .service6 h3:hover, .sluzby .service .service7 h3:hover {
+.sluzby .service .service1 h3:hover, .sluzby .service .service1 h3:focus, .sluzby .service .service2 h3:hover, .sluzby .service .service2 h3:focus, .sluzby .service .service3 h3:hover, .sluzby .service .service3 h3:focus, .sluzby .service .service4 h3:hover, .sluzby .service .service4 h3:focus, .sluzby .service .service5 h3:hover, .sluzby .service .service5 h3:focus, .sluzby .service .service6 h3:hover, .sluzby .service .service6 h3:focus, .sluzby .service .service7 h3:hover, .sluzby .service .service7 h3:focus {
   text-shadow: 5px 5px 10px #000;
   background-color: rgba(0, 0, 0, 0);
   -webkit-transition: background-color .3s, text-shadow .3s;
@@ -680,8 +679,18 @@ nav ul li a i {
         -ms-grid-row-align: center;
         align-self: center;
   }
-  .sluzby {
-    display: none;
+  .sluzby .service {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 0;
   }
   .fotogaleria {
     display: none;
