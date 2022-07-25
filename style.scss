@@ -530,5 +530,82 @@ nav {
         }
     }
 }
+
+//==== MOBIL 576PX =================
+@media ( max-width: 576px ) {
+    nav {
+        display: none;
+    }
+
+    .header-left {
+
+        .cover {
+
+            img {
+                width: 370px;
+                height: 120px;
+           
+            } 
+
+            .hight-text {
+
+                h1 {
+                    font-size: 45px;
+                }
+            }
+
+            ul {
+                flex-direction: column;
+                align-items: center;
+                li {
+
+                    a {
+
+                        margin: 0;
+                        font-size: 29px;
+
+                        i {
+                            font-size: 48px;
+                            margin-right: 3px;
+                        }
+                    }
+                }
+            }
+    
+        }
+
+    }
+
+    .header-right {
+
+        .slide {
+
+        &:nth-of-type(1),&:nth-of-type(2) {
+            display: none;
+        }
+        }
+    }
+
+
+    .about-us-block {
+        display: none;
+    }
+
+    .sluzby {
+        display: none;
+    }
+
+    .fotogaleria {
+        display: none;
+    }
+
+    .kontakt {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+}
   
 
