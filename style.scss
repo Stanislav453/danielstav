@@ -280,21 +280,6 @@ nav {
             margin-top: 60px;
         }
 
-        .hight-text {
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            border-bottom: 5px dotted $second-color;
-
-            h2 {
-                font-size: 95px;
-                font-weight: 900;
-                color: $link-color;
-    
-            }
-
-        }
 
     }
 
@@ -533,9 +518,25 @@ nav {
 
 //==== MOBIL 576PX =================
 @media ( max-width: 576px ) {
+
+//=== VŠEOBECNÉ ======== 
+
+.hight-text {
+
+    h2 {
+       font-size: 80px; 
+    }
+
+    .underline {
+        width: 284px;
+    }
+}
+
     nav {
         display: none;
     }
+
+ //==== HEADER 576PX ============
 
     .header-left {
 
@@ -586,10 +587,25 @@ nav {
         }
     }
 
+ //==== O MNE BLOCK 576PX ============
+ .about-us-block {
 
-    .about-us-block {
-        display: none;
+
+    .right-side {
+
+        img {
+            display: none;
+        }
     }
+
+    .left-side {
+
+        p {
+            align-self: center;
+        }
+    }
+ }
+
 
     .sluzby {
         display: none;
