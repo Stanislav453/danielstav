@@ -72,6 +72,15 @@ window.addEventListener("scroll", function (e) {
     backToHome.style.display = "none";
   }
 
+  });
 
+  // ==== MOBILE MENU ======================
+  let mobileButton = document.querySelector(".mobile-button i");
+  let nav          = document.querySelector("nav");
+
+  console.log( nav,mobileButton );
+
+  mobileButton.addEventListener("click", function(e){
+    nav.classList.toggle("show-nav");
 
   });
