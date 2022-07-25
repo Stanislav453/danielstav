@@ -429,6 +429,7 @@ nav {
     background-color: rgba($color: #000000, $alpha: 0.7);
   }
 
+
 //===== KONTAKT BLOCK ===============
 .kontakt {
 
@@ -520,6 +521,10 @@ nav {
 
 //=== VŠEOBECNÉ ======== 
 
+.imger {
+    width: 90%;
+  }
+
 .hight-text {
 
     h2 {
@@ -529,11 +534,12 @@ nav {
     .underline {
         width: 284px;
     }
-}
+ }
 
     nav {
         display: none;
     }
+
 
  //==== HEADER 576PX ============
 
@@ -605,7 +611,7 @@ nav {
     }
  }
 
- //==== SLUZBY BLOCK ============
+ //==== SLUZBY BLOCK 576PX ============
 
  .sluzby {
 
@@ -619,17 +625,49 @@ nav {
 
  }
 
+  //==== FOTOGALERIA BLOCK 576PX ============
+
     .fotogaleria {
-        display: none;
+
+        img {
+           height: 180px; 
+        }
+
+        .hight-text {
+
+            h2 {
+
+                font-size: 50px;
+            }
+     }
     }
+
+//==== KONTAKT BLOCK 576PX ============
 
     .kontakt {
-        display: none;
+        
+        .kontakt-left {
+
+            border-right: 0;
+            // border-bottom: 5px dotted #c4b250 ;
+        }
+
+        .kontakt-right {
+
+            a { 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+                img {
+                width: 80%;
+
+                }
+
+            }
+        }
     }
 
-    .footer {
-        display: none;
-    }
 }
   
 

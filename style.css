@@ -635,6 +635,9 @@ nav ul li a i {
 }
 
 @media (max-width: 576px) {
+  .imger {
+    width: 90%;
+  }
   .hight-text h2 {
     font-size: 80px;
   }
@@ -692,14 +695,28 @@ nav ul li a i {
             flex-direction: column;
     margin-top: 0;
   }
-  .fotogaleria {
-    display: none;
+  .fotogaleria img {
+    height: 180px;
   }
-  .kontakt {
-    display: none;
+  .fotogaleria .hight-text h2 {
+    font-size: 50px;
   }
-  .footer {
-    display: none;
+  .kontakt .kontakt-left {
+    border-right: 0;
+  }
+  .kontakt .kontakt-right a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .kontakt .kontakt-right a img {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=style.css.map */
