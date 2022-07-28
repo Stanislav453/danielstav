@@ -140,13 +140,6 @@ nav {
             align-items: center;
             border-bottom: 5px dotted $second-color;
 
-            h1 {
-                font-size: 55px;
-                font-weight: 900;
-                color: $link-color;
-
-            }
-
         
         }
 
@@ -161,7 +154,9 @@ nav {
 
         ul {
             display: flex;
+            flex-direction: column;
             justify-content: center;
+            align-items: center;
             padding: 0;
 
             li {
@@ -173,7 +168,7 @@ nav {
                     text-decoration: none;
                     font-weight: 900;
                     margin: 0 35px;
-                    font-size: 23px;
+                    font-size: 33px;
                     transform: scale(.9);
                     transition: transform .3s;
 
