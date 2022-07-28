@@ -45,7 +45,7 @@ body {
 
 .back_to_home i {
   font-size: 100px;
-  color: black;
+  color: #c4b250;
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
   -webkit-transition: color 0.3s, -webkit-transform .3s;

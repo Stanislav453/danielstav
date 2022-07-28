@@ -45,7 +45,7 @@ body {
   
     i {
       font-size: 100px;
-      color: black;
+      color: $second-color;
   
       transform: scale(0.8);
       transition: color 0.3s, transform .3s;
