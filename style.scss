@@ -528,11 +528,11 @@ nav {
 .hight-text {
 
     h2 {
-       font-size: 80px; 
+       font-size: 75px; 
     }
 
     .underline {
-        width: 284px;
+        width: 265px;
     }
  }
     .mobile-button {
@@ -596,17 +596,10 @@ nav {
         .cover {
 
             img {
-                width: 370px;
+                width: 330px;
                 height: 120px;
            
             } 
-
-            .hight-text {
-
-                h1 {
-                    font-size: 45px;
-                }
-            }
 
             ul {
                 flex-direction: column;
@@ -668,6 +661,10 @@ nav {
         justify-content: center;
         flex-direction: column;
         margin-top: 0;
+
+        .service1,.service2,.service3,.service4,.service5,.service6,.service7 {
+            width: 335px;
+        }
      }
     
 
@@ -698,6 +695,17 @@ nav {
 
             border-right: 0;
             // border-bottom: 5px dotted #c4b250 ;
+
+            ul {
+
+                li {
+
+                    a {
+
+                        font-size: 26px;
+                    }
+                }
+            }
         }
 
         .kontakt-right {
