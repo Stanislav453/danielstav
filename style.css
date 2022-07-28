@@ -648,10 +648,10 @@ nav ul li a i {
     width: 90%;
   }
   .hight-text h2 {
-    font-size: 80px;
+    font-size: 75px;
   }
   .hight-text .underline {
-    width: 284px;
+    width: 265px;
   }
   .mobile-button {
     display: -webkit-box;
@@ -712,11 +712,8 @@ nav ul li a i {
     padding-right: 24px;
   }
   .header-left .cover img {
-    width: 370px;
+    width: 330px;
     height: 120px;
-  }
-  .header-left .cover .hight-text h1 {
-    font-size: 45px;
   }
   .header-left .cover ul {
     -webkit-box-orient: vertical;
@@ -759,6 +756,9 @@ nav ul li a i {
             flex-direction: column;
     margin-top: 0;
   }
+  .sluzby .service .service1, .sluzby .service .service2, .sluzby .service .service3, .sluzby .service .service4, .sluzby .service .service5, .sluzby .service .service6, .sluzby .service .service7 {
+    width: 335px;
+  }
   .fotogaleria img {
     height: 180px;
   }
@@ -767,6 +767,9 @@ nav ul li a i {
   }
   .kontakt .kontakt-left {
     border-right: 0;
+  }
+  .kontakt .kontakt-left ul li a {
+    font-size: 26px;
   }
   .kontakt .kontakt-right a {
     display: -webkit-box;
