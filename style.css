@@ -192,12 +192,6 @@ nav ul li a i {
   border-bottom: 5px dotted #c4b250;
 }
 
-.header-left .cover .hight-text h1 {
-  font-size: 55px;
-  font-weight: 900;
-  color: aliceblue;
-}
-
 .header-left .cover img {
   width: 600px;
   height: 300px;
@@ -212,9 +206,16 @@ nav ul li a i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 0;
 }
 
@@ -230,7 +231,7 @@ nav ul li a i {
   text-decoration: none;
   font-weight: 900;
   margin: 0 35px;
-  font-size: 23px;
+  font-size: 33px;
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
   -webkit-transition: -webkit-transform .3s;
