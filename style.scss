@@ -2,9 +2,6 @@
 @import "scss/variables";
 
 // === VŠEOBECNÉ ========================
-// * {
-//     outline: 1px solid red;
-// }
 
 .hight-text {
     display: flex;
@@ -90,7 +87,6 @@ nav {
                 color: $link-color;
                 font-size: 21px;
                 font-weight: 900;
-                // padding: 25px;
                 text-decoration: none;
                 padding: 5px 15px;
                 transform: scale(.8);
@@ -123,7 +119,6 @@ nav {
     .cover {
         display: flex;
         flex-direction: column;
-        // align-content: space-between;
         justify-content: space-evenly;
         width: 100%;
         height: 600px;
@@ -482,6 +477,7 @@ nav {
         a {
             transform: rotate(0);
             transition: transform .3s;
+            
             &:hover {
                 transform: rotate(5deg);
                 transition: transform .3s;
