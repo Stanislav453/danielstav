@@ -250,7 +250,7 @@ nav ul li a i {
 }
 
 .header-left .cover ul li a i {
-  font-size: 38px;
+  font-size: 45px;
   margin-right: 8px;
 }
 
@@ -711,9 +711,18 @@ nav ul li a i {
   nav ul li a i {
     padding-right: 24px;
   }
+  .header-left {
+    height: 460px;
+  }
+  .header-left img {
+    height: 100%;
+  }
+  .header-left .cover {
+    height: 460px;
+  }
   .header-left .cover img {
     width: 330px;
-    height: 120px;
+    height: 100%;
   }
   .header-left .cover ul {
     -webkit-box-orient: vertical;
@@ -726,10 +735,10 @@ nav ul li a i {
   }
   .header-left .cover ul li a {
     margin: 0;
-    font-size: 29px;
+    font-size: 20px;
   }
   .header-left .cover ul li a i {
-    font-size: 48px;
+    font-size: 28px;
     margin-right: 3px;
   }
   .header-right .slide:nth-of-type(1), .header-right .slide:nth-of-type(2) {

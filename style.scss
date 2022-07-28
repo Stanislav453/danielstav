@@ -173,7 +173,7 @@ nav {
                     }
                     
                     i {
-                        font-size: 38px;
+                        font-size: 45px;
                         margin-right: 8px;
                     }
 
@@ -477,7 +477,7 @@ nav {
         a {
             transform: rotate(0);
             transition: transform .3s;
-            
+
             &:hover {
                 transform: rotate(5deg);
                 transition: transform .3s;
@@ -589,11 +589,21 @@ nav {
 
     .header-left {
 
+        height: 460px;
+
+        img {
+            height: 100%;
+       
+        } 
+
+
         .cover {
+
+            height: 460px;
 
             img {
                 width: 330px;
-                height: 120px;
+                height: 100%;
            
             } 
 
@@ -605,10 +615,10 @@ nav {
                     a {
 
                         margin: 0;
-                        font-size: 29px;
+                        font-size: 20px;
 
                         i {
-                            font-size: 48px;
+                            font-size: 28px;
                             margin-right: 3px;
                         }
                     }
